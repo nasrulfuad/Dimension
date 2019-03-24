@@ -1,0 +1,33 @@
+{
+  "name": "nasrul",
+  "version": "1.0.0",
+  "description": "Nasrul Page",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "babel-loader": "^8.0.5"
+  },
+  "scripts": {
+    "build": "babel src -d dist/js",
+    "webpack": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nasrulfuad/Dimension.git"
+  },
+  "keywords": [
+    "Dimension"
+  ],
+  "author": "Nasrul Fuad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nasrulfuad/Dimension/issues"
+  },
+  "homepage": "https://github.com/nasrulfuad/Dimension#readme"
+}
