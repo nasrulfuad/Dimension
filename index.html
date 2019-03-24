@@ -7,9 +7,9 @@
     <title>Nasrul Fuad</title>
     <meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="dist/css/main.min.css" />
+		<link rel="stylesheet" href="src/css/main.css" />
 		<noscript>
-			<link rel="stylesheet" href="dist/css/noscript.min.css" />
+			<link rel="stylesheet" href="src/css/noscript.css" />
 		</noscript>
     </head>
     <body class="is-preload">
@@ -336,5 +336,11 @@
       <script src="dist/js/breakpoints.min.js"></script>
       <script src="dist/js/util.min.js"></script>
       <script src="dist/js/main.min.js"></script>
+      <script>
+          $(document).ready(() => {
+            (($('#tes')).next()).remove();
+          });
+      </script>
+      <div id="tes"></div>
     </body>
 </html>
